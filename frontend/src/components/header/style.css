@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+#container {
+    background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+    width: 100%;
+    height: 250px;
+}
+
+#container-titles {
+    width: 55%;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px
+}
+
+#title {
+    
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+#subtitle {
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#search {
+    width: 100%;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.0);
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+
+}
+
+input {
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+input::placeholder {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+#container-search {
+    width: 100%;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 28px;
+    padding-left: 20px;
+}
+
+
+/* Responsive */
+
+@media (min-width: 930px) and (max-width: 960px) {
+    #container-titles {
+        width: 90%;
+    }
+}
+@media (max-width: 375px) {
+    #container-titles {
+        width: 90%;
+    }
+    
+}
+
+@media (max-width: 360px) {
+    #container-titles {
+        width: 90%;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 668px) {
+    #container-titles {
+        width: 90%;
+    }
+}
+
+@media (min-width: 468px) and (max-width: 568px) {
+    #container-titles {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 930px) {
+    #container-titles {
+        width: 90%;
+    }
+}

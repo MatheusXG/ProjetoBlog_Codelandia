@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+#container-row {
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+#container-card {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+}
+
+#date-card {
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #B6B6B6;
+}
+
+#title-card {
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: justify;
+    color: #313131;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-bottom: 8px;
+}
+
+#text-card {
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #B6B6B6;
+    text-align: justify;
+    margin: 22px;
+    margin-top: 8px;
+    margin-right: 22px;
+    margin-left: 22px;
+    margin-bottom: 25px;
+
+}
+
+
+@media (max-width: 1366px) {
+    #text-card {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 375px) {
+    #container-row {
+        width: 90%;
+    }
+
+    #date-card{
+        font-size: 14px;
+        margin-left: -10px;
+
+    }
+
+    #title-card {
+        font-size: 16px;
+        line-height: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    #text-card {
+        font-size: 13px;
+        line-height: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+}
+
+@media (max-width: 360px) {
+    #text-card {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1544px) {
+    #title-card {
+        font-size: 22px;
+        
+    }
+    #text-card {
+        font-size: 17px;
+        line-height: 28px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1350px) {
+    #title-card {
+        font-size: 19px;
+        
+    }
+    #text-card {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 927px) and (max-width: 1280px) {
+    #title-card {
+        font-size: 17px;
+        
+    }
+    #text-card {
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 930px) {
+    #container-row {
+        width: 85%;
+       
+    }
+    #title-card {
+        font-size: 20px;
+        line-height: 22px;
+
+    }
+    #text-card {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media (min-width: 668px) and (max-width: 768px) {
+    #container-row {
+        width: 85%;
+       
+    }
+    #title-card {
+        font-size: 20px;
+        line-height: 17px;
+
+    }
+    #text-card {
+        font-size: 17px;
+        line-height: 25px;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 668px) {
+    #container-row {
+        width: 90%;
+       
+    }
+    #title-card {
+        font-size: 20px;
+        line-height: 18px;
+
+    }
+    #text-card {
+        font-size: 17px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 468px) and (max-width: 568px) {
+    
+    #container-row {
+        width: 90%;
+       
+    }
+    #title-card {
+        font-size: 15px;
+        line-height: 18px;
+
+    }
+    #text-card {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+
+@media (min-width: 930px) and (max-width: 960px) {
+    #container-row {
+        width: 90%;
+    }
+
+    #date-card{
+        font-size: 14px;
+        margin-left: -10px;
+
+    }
+
+    #title-card {
+        font-size: 26px;
+        line-height: 32px;
+      
+
+    }
+
+    #text-card {
+        font-size: 19px;
+        line-height: 26px;
+     
+
+    }
+}
+
